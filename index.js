@@ -27,8 +27,6 @@ function currentLine(katzDeliLine) {
     message += `${number}. ${name}, `;
   }
   
-  message.pop();
-  
   return message;
   
 }
