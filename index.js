@@ -27,7 +27,7 @@ function currentLine(katzDeliLine) {
     message += `${number}. ${name}, `;
   }
   
-  return message.substring(0, -3);
+  return message.substring(0, message.length - 1);
   
 }
 
